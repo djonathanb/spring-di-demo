@@ -11,7 +11,7 @@ public class SetterInjectedControllerTest {
     private SetterInjectedController controller;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         this.controller = new SetterInjectedController();
         this.controller.setGreetingService(new GreetingServiceImpl());
     }
